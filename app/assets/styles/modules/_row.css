@@ -10,7 +10,15 @@
         padding-right: 65px;
      }
 
+    &__b-margin-until-small {
+         margin-bottom: 1rem;
+    }
+
      @mixin atSmall {
+
+         &__b-margin-until-small {
+          margin-bottom: 0;
+         }
 
          &__small-4 {
              float: left;
